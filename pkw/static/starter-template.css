@@ -1,0 +1,142 @@
+body {
+	padding-top: 50px;
+}
+
+.starter-template {
+	padding: 20px 15px;
+	text-align: center;
+}
+
+.menu-left {
+	text-align: left;
+	margin-left: 100px;
+}
+
+.menu-right {
+	text-align: right;
+	margin-right: 100px;
+}
+
+.list-group {
+	margin-bottom: 0px;
+}
+
+.half-transparent {
+	opacity: 0.5;
+}
+
+.mouse-over {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.glyphicon-refresh-animate {
+	-animation: spin .7s infinite linear;
+	-webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+	from { -webkit-transform: rotate(0deg);}
+	to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+	from { transform: scale(1) rotate(0deg);}
+	to { transform: scale(1) rotate(360deg);}
+}
+
+#loading-box {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 30px;
+	right: 30px;
+	padding: auto;
+	margin: 0;
+}
+
+.comm-button {
+	margin: 5px;
+	size: 3px;
+	text-align: right;
+}
+
+.comm-entry {
+	padding: auto;
+}
+
+.input {
+	text-align: right;
+}
+
+.table th {
+	white-space: nowrap;
+	text-align: center;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.to-the-right {
+	float: right;
+}
+
+.invis {
+	visibility: hidden;
+}
+
+.buttons {
+}
+
+.hidden {
+	display: none;
+}
+
+#success-msg {
+	margin: auto;
+}
+
+#voiv-panel {
+	padding-bottom: 0px;
+}
+
+.voiv-list {
+	margin-bottom: 0px;
+}
+
+.dist.active {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.county.active {
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+	border-color: #faebcc;
+	cursor: pointer;
+	cursor: hand;
+}
+
+/* unvisited link */
+a:link {
+	color: #000000;
+}
+
+/* visited link */
+a:visited {
+	color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+	color: #000000;
+}
+
+/* selected link */
+a:active {
+	color: #000000;
+}
